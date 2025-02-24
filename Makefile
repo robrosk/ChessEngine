@@ -10,7 +10,7 @@ SRC_DIR = src
 OBJ_DIR = obj
 
 # Source and Object Files
-SRCS = $(SRC_DIR)/chess.cpp $(SRC_DIR)/ChessBoard.cpp $(SRC_DIR)/Piece.cpp
+SRCS = $(SRC_DIR)/chess.cpp $(SRC_DIR)/ChessBoard.cpp $(SRC_DIR)/Piece.cpp $(SRC_DIR)/Player.cpp
 OBJS = $(patsubst $(SRC_DIR)/%.cpp, $(OBJ_DIR)/%.o, $(SRCS))  # Convert .cpp to .o
 
 # Executable Name

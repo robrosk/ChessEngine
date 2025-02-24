@@ -7,6 +7,7 @@
 #ifndef PLAYER_H
 #define PLAYER_H
  
+#include "Piece.h"
 #include <SFML/Graphics.hpp>
 
 enum class Team { White, Black };
@@ -17,7 +18,7 @@ private:
     Team mTeam = Team::White;
  
 public:
-    Player() = delete
+    Player() = delete;
     Player(int player_number);
 
 };
